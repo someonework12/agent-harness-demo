@@ -14,7 +14,7 @@ npm run smoke            # offline check, no API calls
 Settings in `.env`:
 
 - `GEMINI_API_KEY`: from Google AI Studio.
-- `GEMINI_MODEL`: defaults to `gemini-2.5-flash`. If the API says the model is not found, change this to a current Flash model.
+- `GEMINI_MODEL`: defaults to `gemini-3.8-flash`. If the API says the model is not found, change this to a current Flash model.
 - `LLM_MIN_INTERVAL_MS`: gap between model calls, default 6500, to stay inside free-tier rate limits. Lower it if your quota allows.
 
 ## Use

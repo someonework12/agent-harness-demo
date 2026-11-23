@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { mockResponse } from "./mock.js";
 
-export const MODEL = process.env.GEMINI_MODEL ?? "gemini-2.5-flash";
+export const MODEL = process.env.GEMINI_MODEL ?? "gemini-3.8-flash";
 const MIN_INTERVAL_MS = Number(process.env.LLM_MIN_INTERVAL_MS ?? 6500);
 const MOCK = process.env.MOCK_LLM === "1";
 

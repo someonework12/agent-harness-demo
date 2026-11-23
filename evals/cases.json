@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "idea": "A landing page for a neighborhood tool-lending library",
+    "keywords": ["tool", "lend|borrow", "member"]
+  },
+  {
+    "id": "2",
+    "idea": "A waitlist page for an app that turns voice notes into to-do lists",
+    "keywords": ["voice", "to-?do|task", "waitlist|join"]
+  },
+  {
+    "id": "3",
+    "idea": "A one-page menu and booking site for a small Lagos suya spot",
+    "keywords": ["suya", "menu", "book|reserv|order"]
+  },
+  {
+    "id": "4",
+    "idea": "A pricing page for a freelance invoicing tool with three tiers",
+    "keywords": ["pric", "invoice", "free|starter|basic", "pro|business|premium"]
+  },
+  {
+    "id": "5",
+    "idea": "A page that explains how a solar mini-grid works to rural customers",
+    "keywords": ["solar", "grid", "battery|storage", "pay|tariff|cost"]
+  }
+]

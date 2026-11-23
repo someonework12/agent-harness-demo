@@ -1,0 +1,24 @@
+{
+  "name": "agent-harness-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Planner / builder / reviewer agent pipeline with a guard and an eval harness",
+  "scripts": {
+    "build-page": "tsx --env-file=.env src/cli.ts",
+    "eval": "tsx --env-file=.env src/eval.ts",
+    "eval:baseline": "tsx --env-file=.env src/eval.ts --update-baseline",
+    "smoke": "MOCK_LLM=1 tsx src/cli.ts \"a landing page for a neighborhood tool-lending library\"",
+    "smoke:eval": "MOCK_LLM=1 tsx src/eval.ts",
+    "typecheck": "tsc --noEmit",
+    "serve": "npx --yes serve output -l 4173"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

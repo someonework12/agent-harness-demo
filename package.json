@@ -11,7 +11,7 @@
     "smoke": "MOCK_LLM=1 tsx src/cli.ts \"a landing page for a neighborhood tool-lending library\"",
     "smoke:eval": "MOCK_LLM=1 tsx src/eval.ts",
     "typecheck": "tsc --noEmit",
-    "serve": "npx --yes serve output -l 4173"
+    "serve": "npx --yes serve output -l 4173 --no-clipboard"
   },
   "dependencies": {
     "@google/genai": "^1.0.0"

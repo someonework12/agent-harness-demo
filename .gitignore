@@ -3,3 +3,6 @@ node_modules
 output
 evals/results
 dist
+
+# Local Netlify folder
+.netlify

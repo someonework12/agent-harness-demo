@@ -23,5 +23,10 @@
     "id": "5",
     "idea": "A page that explains how a solar mini-grid works to rural customers",
     "keywords": ["solar", "grid", "battery|storage", "pay|tariff|cost"]
+  },
+  {
+    "id": "6",
+    "idea": "A booking page for a mobile barber who visits clients at home in lagos",
+    "keywords": ["barber", "book|appointment", "home|mobile"]
   }
 ]

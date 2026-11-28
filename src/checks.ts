@@ -41,6 +41,9 @@ export function runChecks(html: string, keywords: string[] = []): Check[] {
   const imgs = html.match(/<img\b[^>]*>/gi) ?? [];
   add("img-alt", imgs.every((i) => /\salt=/i.test(i)));
 
+  const firstSection = html.match(/<section\b[^>]*>[\s\S]*?<\/section>/i)?.[0];
+  add("cta", Boolean(firstSection && /btn|button|cta/i.test(firstSection)));
+
   if (keywords.length) {
     const text = html.replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ");
     const hits = keywords.filter((k) => new RegExp(k, "i").test(text)).length;
